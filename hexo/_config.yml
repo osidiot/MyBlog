@@ -97,7 +97,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: pure
+theme: freemind 
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
@@ -105,3 +105,9 @@ deploy:
   type: git
   repository: git@github.com:osidiot/osidiot.github.io.git
   branch: master
+
+mermaid: ## mermaid url https://github.com/knsv/mermaid
+  enable: true
+  version: "8.4.8"
+  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+    #startOnload: true  // default true
